@@ -1,0 +1,10 @@
+@import "../../constants.scss";
+.container{
+    display: flex;
+    align-items: center;
+  
+    .label{
+        color: $primary-color;
+        margin-right: 1em;
+    }
+}

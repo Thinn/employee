@@ -1,0 +1,13 @@
+@import "../../constants.scss";
+.container{
+    display: flex;
+    align-items: center;
+  
+    .MuiInput-root{
+        min-width: 10em;
+    }
+    .label{
+        color: $primary-color;
+        margin-right: 1em;
+    }
+}

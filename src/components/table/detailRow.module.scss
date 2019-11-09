@@ -1,0 +1,39 @@
+@import '../../constants.scss';
+
+.root{
+    margin-top: -1.5em;
+
+  .content-cell {
+   
+    height: 1rem;
+    border-left: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    &:last-child {
+        border-right: 1px solid $primary-color;
+    }
+    & input {
+        font-size: 0.875rem;
+        padding: 0;
+    }
+  
+  }
+
+  .padding-1rem {
+    padding: 1rem;
+  }
+
+  .name {
+    width: 50%;
+  }
+  .age {
+    flex: 10%;
+  }
+
+  .full-time {
+    width: 10%;
+  }
+  .manager {
+    width: 10%;
+  }
+  
+}
