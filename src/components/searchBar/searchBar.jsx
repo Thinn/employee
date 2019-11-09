@@ -11,6 +11,7 @@ export class SearchBar extends React.Component {
                     {labelName}
                     </InputLabel>
                     <TextField
+                        className={styles["MuiFormControl-marginNormal"]}
                         margin="normal"
                         variant="outlined"
                         onChange={onChange}

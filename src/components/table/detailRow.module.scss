@@ -7,7 +7,7 @@
    
     height: 1rem;
     border-left: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
+    border-bottom: 1px solid $table-divider-color;
     &:last-child {
         border-right: 1px solid $primary-color;
     }
@@ -31,9 +31,17 @@
 
   .full-time {
     width: 10%;
+    text-align: center;
+    .align{
+      margin: -1em;
+    }
   }
   .manager {
     width: 10%;
+    text-align: center;
+    .align{
+      margin: -1em;
+    }
   }
   
 }

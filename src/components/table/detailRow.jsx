@@ -25,6 +25,7 @@ export class DetailRowComponent extends Component {
           </div>
           <div className={classNames(styles["content-cell"], styles["padding-1rem"], styles["full-time"])}>
             <Checkbox 
+            className={styles.align}
              key={`detail_${data.id}`}
                checked={this.state[data.id]||false}
                onChange={this.handleChangeCheckBox(data.id)}
@@ -33,7 +34,7 @@ export class DetailRowComponent extends Component {
           </div>
           <div className={classNames(styles["content-cell"], styles["padding-1rem"], styles.manager)}>
    
-            <Radio value={data.id} />
+            <Radio   className={styles.align} value={data.id} />
           </div>
         
         </ListItem>

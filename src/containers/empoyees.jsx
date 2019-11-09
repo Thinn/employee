@@ -29,7 +29,7 @@ class EmployeeComponent extends React.Component {
                  <div className={styles["header-bar"]}>
                     <SearchBar labelName={"Name"} onChange={this.updateName}/>
                     <SearchComboBox labelName={"Age"} dataList={ages} onChange={this.updateAge} idx={searchEmployeeAge} />
-                    <Button variant="contained"  onClick={this.search}>
+                    <Button className={styles.btn} variant="contained"  onClick={this.search}>
                             Search
                     </Button>
                  </div>

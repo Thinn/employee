@@ -1,6 +1,5 @@
 import React from 'react';
 import { Component } from 'react';
-import styles from './table.module.scss';
 import {RadioGroup} from '@material-ui/core';
 import { DetailRowComponent } from './detailRow';
 import { HeaderRow } from './header';
@@ -14,9 +13,9 @@ state={selected: "16924"}
   render() {
     const {data } = this.props;
     return (
-      <div className={styles['detail']}>
+      <div>
  
-        <div className={styles['list']}>
+        <div >
           <HeaderRow/>
           <RadioGroup  name="manager" value={this.state.selected} onChange={this.handleChange}>
           {
@@ -30,7 +29,6 @@ state={selected: "16924"}
             )
           }
           </RadioGroup>
-          
         </div>
       </div>
     )

@@ -13,8 +13,7 @@ export class SearchComboBox extends React.Component {
                     </InputLabel>
                   
                     <Select className={styles["MuiInput-root"]}
-                            labelId="demo-simple-select-outlined-label"
-                            id="demo-simple-select-outlined"
+                            id="combo"
                             value={idx}
                             onChange={onChange}
   

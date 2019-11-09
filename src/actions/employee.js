@@ -23,7 +23,6 @@ export const searchEmployee = () => async (dispatch, getState) => {
     let filtered = employees.filter(e => e.employee_name.toLowerCase().includes(key))
 
     //filter by Employee Age
-  
     switch(searchEmployeeAge){
         case 0:
                 filtered=filtered.filter(e => parseInt(e.employee_age)>=15 && parseInt(e.employee_age)<20)
