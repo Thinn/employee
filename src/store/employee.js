@@ -6,8 +6,7 @@ const initialState = {
   employees: [],
   filtered:[],
   searchEmployeeName: '',
-  searchEmployeeAge: null,
-  selectedBrands: []
+  searchEmployeeAge: null
 };
 
 export const employeeReducer = (state = initialState, action) => {
